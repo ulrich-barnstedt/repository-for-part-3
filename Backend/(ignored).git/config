@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "heroku"]
+	url = https://git.heroku.com/quiet-ravine-06297.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[gui]
+	wmstate = zoomed
+	geometry = 671x321+26+56 175 166
+[branch "master"]
+	remote = heroku
+	merge = refs/heads/master
